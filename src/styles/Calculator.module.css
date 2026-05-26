@@ -1,13 +1,75 @@
+/* =========================
+   MOBILE FIRST
+========================= */
+
 .container {
-  width: 320px;
+  width: 95%;
+
+  max-width: 100%;
+
   background-color: black;
-  padding: 20px;
-  border-radius: 20px;
-  margin: 40px auto;
+
+  padding: 16px;
+
+  border-radius: 16px;
+
+  margin: 20px auto;
+
+  box-sizing: border-box;
 }
 
 .buttonsContainer {
   display: grid;
+
   grid-template-columns: repeat(4, 1fr);
-  gap: 12px;
+
+  gap: 8px;
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 340px;
+
+    padding: 18px;
+  }
+
+  .buttonsContainer {
+    gap: 10px;
+  }
+}
+
+/* =========================
+   DESKTOP
+========================= */
+
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 380px;
+
+    padding: 20px;
+  }
+
+  .buttonsContainer {
+    gap: 12px;
+  }
+}
+
+/* =========================
+   LARGE SCREEN
+========================= */
+
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 420px;
+
+    padding: 24px;
+  }
+
+  .buttonsContainer {
+    gap: 14px;
+  }
 }
