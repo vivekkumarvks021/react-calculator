@@ -1,0 +1,19 @@
+.display {
+  height: 120px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  overflow: hidden;
+  padding: 10px;
+  min-width: 0;
+}
+
+.text {
+  color: white;
+  min-width: 0;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  text-align: right;
+  position: relative;
+  top: -7px;
+}
