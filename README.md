@@ -204,34 +204,6 @@ import styles from "./Button.module.css";
 
 ---
 
-# Future Improvements
-
-- Decimal Support
-- Backspace
-- Keyboard Support
-- Scientific Calculator
-- Calculation History
-- Theme Switching
-- Sound Effects
-
----
-
-# Learning Outcomes
-
-This project helps in understanding:
-
-- React Component Structure
-- State Management
-- Dynamic Rendering
-- Event Handling
-- Expression Evaluation
-- CSS Modules
-- Flexbox & Grid
-- Conditional Rendering
-- JavaScript Function Constructor
-
----
-
 # Run Project
 
 Install dependencies:
